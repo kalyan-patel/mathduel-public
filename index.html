@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Math Duel — Privacy &amp; Support</title>
+<style>
+  :root{
+    --bg-top:#101A2E; --bg-bot:#0A1120; --card:#141F35;
+    --accent:#3D93FF; --ink:#FFFFFF; --muted:rgba(255,255,255,.62); --line:rgba(255,255,255,.10);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:linear-gradient(180deg,var(--bg-top),var(--bg-bot)) fixed;
+    line-height:1.65; min-height:100vh;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:48px 20px 80px}
+  header{text-align:center; margin-bottom:40px}
+  .bolt{width:64px;height:64px;display:inline-block}
+  h1{font-size:30px; letter-spacing:2px; margin:14px 0 4px; text-transform:uppercase}
+  .tag{color:var(--muted); font-size:15px; margin:0}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px 26px; margin:20px 0}
+  h2{font-size:20px; margin:0 0 12px}
+  p,li{color:var(--muted); font-size:16px}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px; padding-left:20px}
+  strong{color:var(--ink); font-weight:600}
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .updated{color:var(--muted); font-size:13px; text-align:center; margin-top:8px}
+  footer{text-align:center; color:var(--muted); font-size:13px; margin-top:36px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg class="bolt" viewBox="0 0 90 64" aria-hidden="true">
+      <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5CC8FF"/><stop offset="1" stop-color="#2E7BFF"/></linearGradient></defs>
+      <path d="M46.8 3.8 L25.2 34.6 L41.4 34.6 L34.2 60.2 L66.6 26.9 L49.5 26.9 L59.4 3.8 Z" fill="url(#b)"/>
+    </svg>
+    <h1>Math Duel</h1>
+    <p class="tag">Head-to-head mental math, right inside Messages.</p>
+  </header>
+
+  <section class="card" id="privacy">
+    <h2>Privacy Policy</h2>
+    <p><strong>Short version: Math Duel collects nothing.</strong> There are no accounts, no logins,
+       no analytics, no ads, and no network connections of any kind.</p>
+    <p><strong>Data we collect:</strong> None. Math Duel does not collect, store, transmit, or share
+       any personal information or usage data.</p>
+    <p><strong>How the game works:</strong> Game state — the puzzle seed and each player's score — is
+       carried inside the iMessage you send, using Apple's Messages framework. It stays within your
+       Messages conversation and is never sent to us or to any third party. Your in-progress round is
+       stored only on your own device.</p>
+    <p><strong>Children's privacy:</strong> The app collects no data from anyone, including children
+       under 13.</p>
+    <p><strong>Changes:</strong> If this policy ever changes, the updated version will be posted on
+       this page.</p>
+  </section>
+
+  <section class="card" id="support">
+    <h2>Support</h2>
+    <p>Need help or have feedback? Get in touch and we'll get back to you.</p>
+    <ul>
+      <li>Email: <a href="mailto:REPLACE_WITH_YOUR_SUPPORT_EMAIL">REPLACE_WITH_YOUR_SUPPORT_EMAIL</a></li>
+    </ul>
+    <p><strong>How to play:</strong> In Messages, open a conversation, tap the Apps button, choose
+       Math Duel, and send a duel. Tap the message to play — you and your friend race the same
+       problems, and the higher score wins.</p>
+  </section>
+
+  <p class="updated">Last updated: 28 September 2026</p>
+  <footer>© 2026 Math Duel</footer>
+</div>
+</body>
+</html>
